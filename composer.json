@@ -1,0 +1,28 @@
+{
+    "name": "gbethu/package-userlogs",
+    "description": "write user logs like login and logout actions along with activites and user visited urls",
+    "autoload": {
+        "psr-4": {
+            "Gbethu\\PackageUserlogs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bethuganesh"
+        }
+    ],
+    "require": {},
+    "repositories": [
+    {
+        "type": "path",
+        "url": "../my-laravel-package"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "VendorName\\MyPackage\\MyServiceProvider"
+        ]
+    }
+}
+]
+}
