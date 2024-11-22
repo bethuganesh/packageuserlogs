@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\PackageName;
+namespace BethuGanesh\PackageUserlogs;
 
 use Illuminate\Support\ServiceProvider;
 
