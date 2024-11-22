@@ -1,28 +1,27 @@
 {
-    "name": "gbethu/package-userlogs",
-    "description": "write user logs like login and logout actions along with activites and user visited urls",
-    "autoload": {
-        "psr-4": {
-            "Gbethu\\PackageUserlogs\\": "src/"
-        }
-    },
+    "name": "bethuganesh/packageuserlogs",
+    "description": "A Laravel package for user logging",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "bethuganesh"
+            "name": "Ganesh Bethu",
+            "email": "your-email@example.com"
         }
     ],
-    "require": {},
-    "repositories": [
-    {
-        "type": "path",
-        "url": "../my-laravel-package"
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BethuGanesh\\PackageUserlogs\\": "src/"
+        }
     },
     "extra": {
-    "laravel": {
-        "providers": [
-            "VendorName\\MyPackage\\MyServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "BethuGanesh\\PackageUserlogs\\MyServiceProvider"
+            ]
+        }
     }
-}
-]
 }
